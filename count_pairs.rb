@@ -10,7 +10,7 @@ def count_pairs array, target
     data_bind[data] = true
   end
 
-  puts result.inspect
+  puts "pairs: #{result.inspect}, total_pairs: #{result.count}"
 end
 
 count_pairs([1, 3, 2, 2, 3, 4], 5)
